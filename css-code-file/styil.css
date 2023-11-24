@@ -1,5 +1,20 @@
+/*-------------------------------- 
+- Stages of organizing elements.
+==================================
+1- Import the font used
+2- Add some properties to all elements
+3- Formatting the body element
+4- Container format
+5- Formatting the header element and all the elements inside it
+6- Coordinating the content and all the elements inside it
+----------------------------------*/
+/*===================== 
+1- Import the font used
+========================*/
 @import url("https://fonts.googleapis.com/css2?family=Amiri&family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500;1,600&family=Ubuntu&display=swap");
-
+/*====================================
+2- Add some properties to all elements
+======================================*/
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +26,9 @@ a {
   color: #62ff01;
   text-decoration: none;
 }
+/*============================
+3- Formatting the body element
+==============================*/
 body {
   /* background: #b3b2b2; */
   background: linear-gradient(to right, #000000dc -30%, #00000091 );
@@ -19,6 +37,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+/*=================
+4- Container format
+===================*/
 .container {
   background: linear-gradient(to right, #000000dc -30%, #00000091 ),
     url(/img-file/background.jpg);
@@ -34,6 +55,9 @@ body {
   url(/img-file/background.jpg);
   background-size: cover;
 }
+/*============================================================
+5- Formatting the header element and all the elements inside it
+===============================================================*/
 header {
   display: flex;
   justify-content: space-between;
@@ -62,6 +86,9 @@ ul a {
 ul a:hover {
   border-bottom:2px solid #45b301;
 }
+/*========================================================
+6- Coordinating the content and all the elements inside it
+==========================================================*/
 .content {
   color: white;
   width: 50%;
